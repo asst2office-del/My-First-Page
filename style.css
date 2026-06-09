@@ -6,11 +6,11 @@ body{
 .container{
     display:flex;
     justify-content:center;
-    gap:20px;
+    gap:10px;
 }
 
 .box{
-    border:1px solid black;
-    padding:20px;
+    border:2px solid black;
+    padding:30px;
     width:200px;
 }
