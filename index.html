@@ -171,18 +171,27 @@ body {
 }
 
 .foundation-box{
-    position: fixed;
-    left: 3px;      /* Left side */
-    top: 50%;        /* Middle of page */
-    transform: translateY(-50%);
+    width:100px;          /* Smaller width */
+    height:140px;         /* Smaller height */
 
-    width: 120px;
-    border: 2px solid gold;
-    border-radius: 10px;
-    padding: 10px;
-    background: white;
-    text-align: center;
-    height:160;
+    border:2px solid gold;
+    border-radius:10px;
+    background:white;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    margin-right:30px;    /* Space between Foundation and Grade IX */
+}
+
+.big{
+    font-size:16px;
+    font-weight:bold;
+    color:green;
 }
 </style>
 </head>
@@ -388,13 +397,13 @@ ACADEMIC RESOURCE PORTAL 2026 & 27
         🌐 www.appuarivaalayem.edu.in
     </div>
 
-        <div class="foundation-box">
+     <div class="foundation-box">
     <div>A</div>
     <div>Unit of</div>
     <div class="big">THE</div>
     <div class="big">GIFT</div>
     <div class="big">FOUNDATION</div>
 </div>
-
+        
 </body>
 </html>
